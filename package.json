@@ -1,7 +1,7 @@
 {
-  "name": "csd-vanilla-js",
+  "name": "csd-vanilla",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite serve ./src/wargame",
@@ -11,7 +11,8 @@
     "test-watch": "jest --watch",
     "test-cov": "jest --coverage",
     "cypress": "cypress open",
-    "cypress-run": "cypress run"
+    "cypress-run": "cypress run",
+    "start": " node main.js"
   },
   "devDependencies": {
     "@babel/core": "^7.24.3",
@@ -23,5 +24,9 @@
   },
   "dependencies": {
     "nodemailer": "^6.9.13"
-  }
+  },
+  "description": "npm install",
+  "main": "cypress.config.js",
+  "author": "",
+  "license": "ISC"
 }
