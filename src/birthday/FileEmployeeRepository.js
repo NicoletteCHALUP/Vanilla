@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { Employee } from "../domain/Employee.js";
+import { Employee } from "../Employee.js";
 
 export class FileEmployeeRepository {
   constructor(filePath) {

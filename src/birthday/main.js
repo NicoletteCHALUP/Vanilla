@@ -1,7 +1,7 @@
 import { OurDate } from "./OurDate.js";
-import { FileEmployeeRepository } from "./infrastructure/FileEmployeeRepository.js";
-import { EmailService } from "./infrastructure/EmailService.js";
-import { BirthdayService } from "./application/BirthdayService.js";
+import { FileEmployeeRepository } from "./FileEmployeeRepository.js";
+import { EmailService } from "./EmailService.js";
+import { BirthdayService } from "./BirthdayService.js";
 
 const SMTP_PORT = 465;
 const SMTP_URL = "smtp.gmail.com";

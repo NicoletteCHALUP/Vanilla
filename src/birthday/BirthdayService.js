@@ -1,9 +1,11 @@
-import { Employee } from "./Employee.js";
+import { Employee } from "../domain/Employee.js";
+
 export class BirthdayService {
   constructor(employeeRepository, emailService) {
     this.employeeRepository = employeeRepository;
     this.emailService = emailService;
   }
+
   sendGreetings(ourDate) {
     const employees = this.employeeRepository.getEmployeesWithBirthday(ourDate);
 

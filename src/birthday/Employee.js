@@ -1,4 +1,4 @@
-import { OurDate } from "./OurDate.js";
+import { OurDate } from ".OurDate.js";
 
 export class Employee {
   constructor(firstName, lastName, birthDate, email) {
