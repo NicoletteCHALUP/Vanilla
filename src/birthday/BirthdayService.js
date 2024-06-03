@@ -1,5 +1,4 @@
 import { Employee } from "./Employee.js";
-
 export class BirthdayService {
   constructor(employeeRepository, emailService) {
     this.employeeRepository = employeeRepository;
